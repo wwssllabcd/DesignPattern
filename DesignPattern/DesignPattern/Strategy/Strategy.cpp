@@ -10,3 +10,4 @@ Strategy::Strategy()
 Strategy::~Strategy()
 {
 }
+
