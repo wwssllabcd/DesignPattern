@@ -7,6 +7,9 @@
 #include "DesignPatternDlg.h"
 #include "afxdialogex.h"
 
+#include "./DesignPattern/Strategy/MpStrategy.h"
+
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -30,6 +33,7 @@ void CDesignPatternDlg::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CDesignPatternDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDOK, &CDesignPatternDlg::OnBnClickedOk)
 END_MESSAGE_MAP()
 
 
@@ -87,3 +91,14 @@ HCURSOR CDesignPatternDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CDesignPatternDlg::OnBnClickedOk()
+{
+	// TODO: 在此加入控制項告知處理常式程式碼
+	
+	
+
+	MpStrategy mp;
+	mp.run();
+}

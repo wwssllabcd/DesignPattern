@@ -16,6 +16,9 @@
     <Filter Include="原始程式檔\DesignPattern">
       <UniqueIdentifier>{23dd43ad-fcf9-4b1a-9c35-fe3bcdf57dc0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="原始程式檔\DesignPattern\Strategy">
+      <UniqueIdentifier>{0e6dc80e-d0c2-4cf6-ada9-6f0dcb12f20a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,8 +39,11 @@
     <ClInclude Include="Resource.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
-    <ClInclude Include="DesignPattern\Strategy.h">
-      <Filter>原始程式檔\DesignPattern</Filter>
+    <ClInclude Include="DesignPattern\Strategy\MpStrategy.h">
+      <Filter>原始程式檔\DesignPattern\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\Strategy\Strategy.h">
+      <Filter>原始程式檔\DesignPattern\Strategy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50,8 +56,11 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="DesignPattern\Strategy.cpp">
-      <Filter>原始程式檔\DesignPattern</Filter>
+    <ClCompile Include="DesignPattern\Strategy\MpStrategy.cpp">
+      <Filter>原始程式檔\DesignPattern\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignPattern\Strategy\Strategy.cpp">
+      <Filter>原始程式檔\DesignPattern\Strategy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
